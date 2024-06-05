@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PeruPlaces" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Define los colores principales -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orange</item>
+
+        <!-- Define los colores de texto -->
+        <item name="android:textColorPrimary">@color/white</item> <!-- Para texto principal -->
+        <item name="android:textColorSecondary">@color/white</item> <!-- Para texto secundario -->
+
+        <!-- Define los colores de fondo -->
+        <item name="android:windowBackground">@color/black</item> <!-- Fondo de la ventana -->
+
+        <!-- Define los colores de los botones -->
+        <item name="android:buttonTint">@color/orange</item> <!-- Para botones -->
+
+        <!-- Define los colores de EditText -->
+        <item name="android:editTextColor">@color/orange</item> <!-- Para texto de EditText -->
+        <item name="colorControlNormal">@color/orange</item> <!-- Para bordes de EditText -->
+    </style>
+</resources>

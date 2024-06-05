@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Perú Places</string>
+    <string name="tvIniciarSesion">Iniciar Sesión</string>
+    <string name="DocumentoNacionalIdentidad">DNI</string>
+    <string name="Pasaporte">Pasaporte</string>
+    <string name="CarnetDeExtranjeria">CE</string>
+    <string name="search">Búsqueda</string>
+    <string name="more">Más opciones</string>
+    <string name="drag_handle">Arrastrar</string>
+    <string name="google_maps_key">AIzaSyAPN_rl7wBSnFrKX7TESVmTlTPDjALJyrs</string>
+</resources>

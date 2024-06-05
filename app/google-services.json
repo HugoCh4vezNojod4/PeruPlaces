@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "715491239290",
+    "project_id": "peru-places",
+    "storage_bucket": "peru-places.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715491239290:android:f7e2d1d515011a67e922c3",
+        "android_client_info": {
+          "package_name": "com.absorptionacc.peruplaces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715491239290-055g9rfvn9klhc9b72h65rh5t170596q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.absorptionacc.peruplaces",
+            "certificate_hash": "1a4b0d463375a74e1f13da820baaacdad934f626"
+          }
+        },
+        {
+          "client_id": "715491239290-vae0uic9emnshcb1bnc1ehmatn5q7gt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPN_rl7wBSnFrKX7TESVmTlTPDjALJyrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715491239290-vae0uic9emnshcb1bnc1ehmatn5q7gt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

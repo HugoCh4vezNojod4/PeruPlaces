@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvRegisterTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"
+            android:text="Registro de Usuario"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvCorreo"
+            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo"
+            android:textColor="?attr/colorOutline" />
+
+        <EditText
+            android:id="@+id/etNombres"
+            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombres"
+            android:inputType="text"
+            android:textColor="?attr/colorOutline" />
+
+        <EditText
+            android:id="@+id/etApellidos"
+            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etNombres"
+            android:hint="Apellidos"
+            android:inputType="text"
+            android:textColor="?attr/colorOutline" />
+
+        <EditText
+            android:id="@+id/etFechaNacimiento"
+            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etApellidos"
+            android:hint="Fecha de Nacimiento"
+            android:inputType="date"
+            android:textColor="?attr/colorOutline" />
+
+        <EditText
+            android:id="@+id/etPaisOrigen"
+            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etFechaNacimiento"
+            android:hint="País de Origen"
+            android:inputType="text"
+            android:textColor="?attr/colorOutline" />
+
+        <EditText
+            android:id="@+id/etDireccion"
+            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dirección"
+            android:inputType="text"
+            android:textColor="?attr/colorOutline" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etPaisOrigen"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Registrar" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

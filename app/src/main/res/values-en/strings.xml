@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Perú Places</string>
+    <string name="tvIniciarSesion">Sign In</string>
+    <string name="DocumentoNacionalIdentidad">National Identity Document</string>
+    <string name="Pasaporte">Passport</string>
+    <string name="CarnetDeExtranjeria">Immigration Card</string>
+</resources>
